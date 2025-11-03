@@ -1,0 +1,12 @@
+express-mysql-starter
+ ┣ src
+ ┃ ┣ config
+ ┃ ┃ ┗ db.js
+ ┃ ┣ routes
+ ┃ ┃ ┗ user.routes.js
+ ┃ ┣ controllers
+ ┃ ┃ ┗ user.controller.js
+ ┃ ┗ app.js
+ ┣ .env
+ ┣ package.json
+ ┗ server.js
