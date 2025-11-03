@@ -22,6 +22,10 @@ router.get('/admin',(req,res)=>{
    res.send("Admin Users Page "+ req.query.name)
 });
 
+router.get('/error',(req,res)=>{
+   //  throw new Error("Something exploded");
+});
+
 // http://localhost:3000/users/6
 // router.get('/:id',(req,res)=>{
 //    const userId = req.params.id;
